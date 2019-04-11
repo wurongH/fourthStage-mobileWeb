@@ -1,0 +1,174 @@
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.bxg_layout{
+    width: 100%;
+    height: 100%;
+    max-width: 640px;
+}
+/*	<!-- 导航栏 start-->*/
+.bxg_topNav {
+	width: 100%;
+	max-width: 640px;
+	height: 62px;
+	background-color: #fff;
+	position: fixed;
+	top: 0;
+	z-index: 999;
+}
+.bxg_topNav a {
+	width: 104px;
+	height: 36px;
+	display: block;
+	background: url('../images/logo.png');
+	background-size: 104px 36px;
+	position: absolute;
+	top: 14px;
+	left: 14px;
+}
+.bxg_topNav h2 {
+	position: absolute;
+	top: 18px;
+	left: 200px;
+	color: #29abfc;
+}
+/*	<!-- 导航栏 end-->*/
+
+/*	<!-- 主体块 start-->*/
+.bxg_wrap {
+	width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 72px;
+    max-width: 640px;
+}
+.bxg_content{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.bxg_cLeft{
+    width: 100px;
+    height: 100%;
+    position: fixed;
+    background-color: #eee;
+}
+.bxg_cLeft li{
+    height: 60px;
+    width: 100%;
+}
+.bxg_cLeft li a{
+    width: 100%;
+    height: 100%;
+    display: block;
+    color: #333;
+    line-height: 60px;
+    text-align: center;
+}
+.bxg_slidebarCourse .active {
+	box-sizing: border-box;
+    background-color: #fff;
+	border-left: 2px solid #2aabfb;
+}
+.bxg_cRight{
+	overflow-y: auto;
+    height: 100%;
+    padding-left: 110px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+}
+.bxg_cRight .bxg_cRightBox {
+	display: none;
+}
+.bxg_cRight .bxg_cRightBoxShow {
+	display: block;
+}
+.bxg_cRight  .bxg_cRightBox > span,
+.bxg_cRight .bxg_cProductBox > span{
+	font-size: 16px;
+	color: #27abfc;
+	padding: 14px 0;
+	display: inline-block;
+}
+.bxg_cRight .cRightImg {
+	width: 98%;
+	display: block;
+	height: 84px;
+	position: relative;
+}
+.bxg_cRightBox .cRightImg img {
+	display: block;
+	width: 98%;
+	height: 84px;
+}
+.bxg_cRight .cRightImg .bxg_embW {
+	position: absolute;
+	width: 98%;
+	line-height: 84px;
+	text-align: center;
+}
+.bxg_cRight .cRightImg .bxg_embW span {
+	line-height: 20px;
+	text-align: center;
+	color: #fff;
+	font-size: 16px;
+}
+.bxg_cProduct {
+	height: 100%;
+	width: 100%;
+	background-color: #fff;
+}
+.bxg_cRight .bxg_cProduct li a {
+	color: #b8b8b8;
+	border: 1px solid #d2d2d2;
+	border-radius: 4px;
+	-webkit-box-shadow: inset 0 0 2px #CCC;
+	margin: 10px;
+	padding: 10px;
+	float: left;
+}
+
+/*	<!-- 主体块 end-->*/
+
+
+/*<!-- 底部导航栏 start-->*/
+.bxg_botNav {
+	z-index: 999;
+	border-top: 1px solid #ccc;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	max-width: 640px;
+	height: 54px;
+	background-color: #fff;
+}
+.bxg_botNav .bxg_home,
+.bxg_botNav .bxg_category {
+	width: 28px;
+	height: 28px;
+	position: absolute;
+	top: 6px;
+}
+.bxg_botNav .bxg_home {
+	left: 50px;
+}
+.bxg_botNav .bxg_category {
+	right: 50px;
+}
+
+.bxg_botNav  span,
+.bxg_botNav  p {
+	position: absolute;
+	top: 34px;
+	font-weight: 700;
+	color: #5bb5f6;
+}
+.bxg_botNav  span {
+	left: 50px;
+}
+.bxg_botNav  p {
+	right: 50px;
+}
+/*<!-- 底部导航栏 end-->*/

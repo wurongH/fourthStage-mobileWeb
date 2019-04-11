@@ -1,0 +1,213 @@
+
+/*导航栏 start*/
+.bxg_topNav {
+	width: 100%;
+	max-width: 640px;
+	height: 62px;
+	background-color: #446adf;
+	position: fixed;
+	z-index: 999;
+}
+.bxg_topNav .bxg_message {
+	width: 38px;
+	height: 38px;
+	background: url('../images/邮件.png');
+	background-size: 38px 38px;
+	position: absolute;
+	top: 14px;
+	left: 18px;
+}
+.bxg_topNav .bxg_logo {
+	width: 112px;
+	height: 36px;
+	background: url('../images/headerLogo.png');
+	margin: 16px auto;
+	cursor: pointer;
+}
+.bxg_topNav .bxg_search {
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	top: 16px;
+	right: 18px;
+}
+
+/*导航栏 end*/
+
+/*<!-- 轮播图 start-->*/
+.bxg_banner {
+	padding-top: 62px;
+	width: 100%;
+	max-width: 640px;
+	height: 160px;
+}
+.bxg_bannerImg img {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+/*<!-- 轮播图 end-->*/
+
+/*<!-- 就业课 start-->*/
+.bxg_employmentCourse,
+/*微课公用样式*/
+ .bxg_microCourse{
+	margin-top: 14px;
+	height: 100%;
+	width: 100%;
+	background-color: #fff;
+}
+.bxg_employmentCourse h3:before,
+.bxg_employmentCourse h3:after {
+	content: '.';
+	position: absolute;
+	top: 6px;
+	left: 40%;
+}
+.bxg_employmentCourse h3:after {
+	right: 21%;
+}
+.bxg_employmentCourse h3{
+	font-size: 16px;
+	padding: 10px 0;
+	text-align: center;
+	color: #446adf;
+	position: relative;
+}
+.bxg_course {
+	width: 100%;
+	flex: 1;
+}
+.bxg_course li {
+	width: 33.33%;
+    float: left;
+    text-align: center;
+    padding: 16px 0;
+}
+.bxg_employmentCourse img {
+	width: 70px;
+	height: 70px;
+	border-radius: 50%
+}
+/*<!-- 就业课 end-->*/
+
+/*<!-- 微课 start-->*/
+.bxg_microCourse {
+	margin-bottom: 64px;
+}
+.bxg_microCourse h3 {
+	font-size: 16px;
+	padding: 10px 0;
+	text-align: center;
+	color: #446adf;
+	position: relative;
+}
+.bxg_microCourse h3:before,
+.bxg_microCourse h3:after {
+	content: '.';
+	position: absolute;
+	top: 6px;
+	left: 43%;
+}
+.bxg_microCourse h3:after {
+	right: 30%;
+}
+.bxg_productTip {
+	height: 100%;
+	width: 100%;
+	flex: 1;
+}
+.bxg_productTip li {
+	box-sizing: border-box;
+	width: 33.33%;
+    float: left;
+    text-align: center;
+    padding: 16px 0;
+    border-right: 1px dashed #446adf;
+    border-bottom: 2px solid #446adf;
+}
+.bxg_productTip li:nth-last-of-type(1) {
+	border-right: none;
+}
+.bxg_productTip .active a{
+	color: #446adf;
+}
+
+ .bxg_product {
+	width: 100%;
+	flex: 1;
+	display: none;
+}
+.bxg_microCourse .bxg_productShow { 
+	width: 100%;
+	flex: 1;
+	display: block;
+} 
+.bxg_product li {
+	margin-top: 16px;
+	box-sizing: border-box;
+	width: 50%;
+    float: left;
+    padding: 0 10px;
+}
+.bxg_product li img {
+	width: 100%;
+	height: 100px;
+	display: block;
+	border-radius: 4px;
+}
+.bxg_product li p {
+	padding: 10px 0;
+	font-weight: 700;
+
+}
+.bxg_product li span:nth-last-of-type(2) {
+	color: #ccc;
+}
+.bxg_product li span:nth-last-of-type(1) {
+	color: #446adf;
+	padding-right: 8px;
+	padding-bottom: 10px;
+}
+/*<!-- 微课 end-->*/
+
+/*<!-- 底部导航栏 start-->*/
+.bxg_botNav {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	max-width: 640px;
+	height: 54px;
+	background-color: #fff;
+}
+.bxg_botNav .bxg_home,
+.bxg_botNav .bxg_category {
+	width: 28px;
+	height: 28px;
+	position: absolute;
+	top: 6px;
+}
+.bxg_botNav .bxg_home {
+	left: 50px;
+}
+.bxg_botNav .bxg_category {
+	right: 50px;
+}
+
+.bxg_botNav  span,
+.bxg_botNav  p {
+	position: absolute;
+	top: 34px;
+	font-weight: 700;
+	color: #5bb5f6;
+}
+.bxg_botNav  span {
+	left: 50px;
+}
+
+.bxg_botNav  p {
+	right: 50px;
+}
+/*<!-- 底部导航栏 end-->*/
+
+
